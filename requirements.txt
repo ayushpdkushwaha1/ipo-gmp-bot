@@ -1,0 +1,6 @@
+playwright
+pandas
+openpyxl
+requests
+lxml
+html5lib
