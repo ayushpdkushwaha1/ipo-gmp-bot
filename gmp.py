@@ -128,7 +128,7 @@ try:
         is_mainboard = (
             "IPOU" in val_upper or "IPOO" in val_upper or "IPOCT" in val_upper
         )
-        is_sme = "SMEU" in val_upper or "SMEO" in val_upper
+        is_sme = "SMEU" in val_upper or "SMEO" in val_upper or "SMECT" in val_upper
 
         if is_mainboard or is_sme:
             rating_val = str(row[col_rating]).strip()
